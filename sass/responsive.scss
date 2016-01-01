@@ -1,0 +1,128 @@
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 991px) {
+  .bottom-footer [class*="col-md"] {
+    text-align: left; }
+  .footer-block {
+    margin-bottom: 25px; }
+  .credit p {
+    position: static; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1040px; }
+  a.slider-btn {
+    margin-top: 45px; } }
+
+@media (min-width: 1400px) {
+  a.slider-btn {
+    margin-top: 90px; }
+  .item img{
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .post-list, .about-content-list, .project-list {
+    display: inline-block;
+  }
+  .navbar-wrapper {
+    margin-top: 20px; }
+  .navbar-wrapper .container {
+    padding:0 15px; }
+  .navbar-wrapper .navbar {
+    padding:0; }
+  .top-slide p {
+    margin-bottom: 20px;
+    font-size: $font-size + $font-size/2;
+    line-height: 1.4; }
+  .top-slide .testimonial-slide .carousel-indicators li {
+    position: relative;
+    top: 60px;
+    background: $border-color; }
+}
+
+@media (max-width: 768px) {
+  .project-list {
+    @include block-center();
+    width: 300px;
+  }
+  .dropdown:hover .dropdown-menu {
+    position: relative;
+  }
+  .img-block {
+    margin-bottom: 60px; }
+  .contact-caption h1 {
+    margin: 0;
+    font-size: $font-size + 10;
+    font-weight: bold; }
+  .contact-caption h3 {
+    margin: 0;
+    font-size: $font-size }
+  .navbar {
+    border: 0 solid transparent; }
+  .top-slide .carousel-caption h1 {
+    font-size: $font-size + 4;
+    position: relative;
+    top: 0; }
+  .top-slide .carousel-caption h3 {
+    font-size: $font-size - 2;
+    margin: 0; }
+  .top-slide a.slider-btn {
+    @include size(initial,initial);
+    font-size: $font-size;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-transform: uppercase; }
+  .navbar-collapse {
+    background: $nav-collapse-bg;
+    border-radius: 4px;
+    border-bottom: none;
+  }
+  .featured-img img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1110px) {
+  .top-slide .carousel-caption h1 {
+    font-size: $font-size + 4;
+    position: relative;
+    top: 10px; }
+  .top-slide .carousel-caption h3 {
+    font-size: $font-size; }
+  .top-slide a.slider-btn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    @include size(initial,initial);
+    font-size: $font-size;
+    text-transform: uppercase; }
+  .featured-img img {
+    width: 240px; } }
+
+@media (max-width: 500px) {
+  .top-slide .carousel-indicators {
+    display: none; } }
+
+@media (max-width: 500px) {
+  .navbar {
+    margin-bottom: 0;
+  }
+  .top-slide .carousel-caption h1 {
+    font-size: $font-size;
+    position: relative;
+    top: 0; }
+  .top-slide .carousel-caption h3 {
+    font-size: $font-size - 2;
+    margin: 0;
+    top: 0; }
+  .top-slide a.slider-btn {
+    padding: 4px 8px;
+    border-radius: 2px;
+    @include size(initial,initial);
+    font-size: $font-size;
+    text-transform: uppercase; } }
+
+@media (max-width: 360px) {
+  .top-slide .carousel-caption {
+    display: none; } }
